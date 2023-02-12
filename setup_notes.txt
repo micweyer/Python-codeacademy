@@ -1,0 +1,50 @@
+python --version
+    shows you what version of python is installed
+
+
+
+How did we install?
+Installed python
+    Check the box for add to path
+
+Installed github desktop
+    Made a repo 
+        Repo - repository: where is the code stored
+
+Installed VS Code 
+    IDE : where everything is developed
+
+    Made virtual environment 
+        python -m venv .venv
+
+    To activate virtual environment that I've setup
+        source .venv/Scripts/activate
+
+        (.venv)
+            should show up to show you are inside your virtual environment
+
+    Package manager (pip)
+    Command showing the packages installed
+        pip list
+
+    pip install [pandas]
+        [pandas] = package name, could be anything
+
+    Bash terminal
+        Terminal up top : open new terminal
+        make sure in bash terminal by showing terminals, and then choosing bash with down arrow
+            power shell is default
+        Yellow text:
+            where you are in the folder path/structure
+            cd ../      = go up one level (whatever the parent folder is)
+            cd [name of folder/file you want to go into]
+                relative to where you are 
+                cd [Documents]
+
+    Run a python file
+        python [path to file]
+        python hello_world/scratchpad.py 
+    
+
+            
+
